@@ -1,0 +1,53 @@
+
+/* list.css */
+.company-phone-number {
+    font-weight: 700;
+}
+.banner-main .image {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.list-group .list-group-item {
+    padding: 8px 0;
+    font-size: 14px;
+    /* margin: 0 16px; */
+}
+.list-group .list-group-flush {
+    margin-left: 16px;
+}
+.list-group li.has-sub>div > a {
+    font-weight: 500;
+}
+.fa-angle-down {
+    cursor: pointer;
+}
+
+.list-group a {
+    color: unset;
+}
+.list-group .nav-toggle {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    transition: all .3s;
+}
+.list-group .nav-toggle.active {
+    transform: rotateX(180deg);
+}
+.list-group a:hover {
+    color: #fd542c;
+}
+
+.list-group .title.level-1 {
+    font-weight: 600;
+}
+.list-group-product {
+    /* max-height: 400px; */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
