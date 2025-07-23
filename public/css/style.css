@@ -1628,6 +1628,10 @@ header .btn-close:before, header .btn-close:after {
   position: static !important;
 }
 
+.link_search{
+
+}
+
 .link-is-scroll {
   opacity: 0;
   -webkit-transition: all 0.3s;
@@ -3053,4 +3057,40 @@ header .btn-close:before, header .btn-close:after {
 
 .navbar-light .navbar-nav a.nav-link{
   color: #fff;
+}
+
+
+.fm_search{
+  position: absolute;
+  z-index: 10;
+  top: 1%;
+  left: -550%;
+}
+
+
+
+.fm_search .fm-ip{
+  width: 260px;
+  height: 40px;
+  padding: 5px 40px 5px 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+.fm_search .fm-btn{
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.fm_search{
+  display: none;
+}
+
+.fm_search.active{
+  display: block;
 }
